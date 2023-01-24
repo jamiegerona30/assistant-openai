@@ -1,0 +1,11 @@
+<div class="completion">
+  <div class="input">
+    <textarea [(ngModel)]="prompt" cols="100" rows="5"></textarea>
+    <div>
+      <button (click)="onSubmit()"> Submit </button>
+    </div>
+  </div>
+  <div class="output">
+    <textarea cols="100" rows="5">{{completionOutput}}</textarea>
+  </div>
+</div>
